@@ -3,3 +3,4 @@ Die POIs ergeben sich aus der Befragung der Bewohnerinnen und Bewohner der beide
 Die Erreichbarkeiten wurden mithilfe von openrouteservice oder der eigenen Erreichbarkeitsanalyse ermittelt.
 
 Die Abweichungen der Erreichbarkeit folgern aus den Analysen mit ORS im Vergleich mit den Angaben der Befragten und dem Anteil falscher Antworten.
+Die Codes zur Durchführung der beiden Erreichbarkeitsanalysen im Bus- und Bahnverkehr wurden mit Python 3.10.20 in Visual Studio Code entwickelt.
