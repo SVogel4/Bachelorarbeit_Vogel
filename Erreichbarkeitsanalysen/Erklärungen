@@ -1,24 +1,31 @@
 # Erreichbarkeitsanalysen
 
-In diesem Ordner werden die Erreichbarkeitsanalyse mit dem Bus und der Bahn sowie die dafür verwendeten Daten gespeichert. 
+Dieser Ordner enthält die Python-Skripte zur Durchführung der Erreichbarkeitsanalysen im Bus- und Bahnverkehr sowie die hierfür benötigten Datengrundlagen.
 
-Beide Erreichbarkeitsanalysen werden auf der Grundlage des Bevölkerungsrasters im Umfeld von Schaidt durchgeführt. Diese Raster basieren auf den Bevölkerungsdaten des Zensus-Atlas mit 100x100m. 
-Diese werden als Geojson in das Projekt eingebunden und befinden sich unter dem Dateinamen "Raster_BZA,Woerth" in dem entsprechendem Ordner.
+# Bevölkerungsraster
+Beide Erreichbarkeitsanalysen basieren auf dem Bevölkerungsraster im Umfeld von Schaidt. Die Rasterdaten beruhen auf den Bevölkerungsdaten des Zensus-Atlas und 
+liegen als deutsches INSPIRE-Geogitter mit einer räumlichen Auflösung von 100 × 100 m in Lambert-Projektion vor. Die Daten wurden vom Bundesamt für Kartographie und Geodäsie (BKG) bereitgestellt.
+Die Rasterdaten werden als GeoJSON-Datei in das Projekt eingebunden und befinden sich unter dem Dateinamen:
+`Raster_BZA_Woerth`.geojson
 
-Zudem werden OpenStreetMap-Daten als Grundlage für das Wegenetz genutzt, die ebenfalls für beide Anakysen unter "OSM_Daten.pbf" gepsiechert sind. Diese Daten stammen von der offiziellen OSM-Webseite. 
+# OpenStreetMap-Daten
+Als Grundlage für das Wegenetz werden für beide Analysen Daten aus OpenStreetMap (OSM) von der offiziellen Webseite verwendet. 
+Diese sind im Repository unter folgendem Dateinamen gespeichert:
+`OSM_Daten`.pbf
 
-Die GTFS-Daten des Busverkehrs konnten aufgrund ihrer Dateigröße nicht in das GitHub-Repository integriert werden. Sie können über das Open-Data-Portal des VRN unter folgendem Link heruntergeladen werden:
-https://opendata.vrn.de/datasets/vrn-und-rnn-gtfs-sollfahrplandaten-aktuell
-Für die Reproduzierbarkeit der Analysen ist der Datensatz mit Stand vom 20.07.2026 zu verwenden. Nach dem Download der ZIP-Datei ist diese entsprechend der im Python-Skript verwendeten Dateibezeichnung umzubenennen.
+# GTFS-Daten des Busverkehrs
+Die GTFS-Daten des Busverkehrs konnten aufgrund ihrer Dateigröße nicht in das GitHub-Repository integriert werden. Sie können über das Open-Data-Portal des Verkehrsverbundes Rhein-Neckar (VRN) unter folgendem Link heruntergeladen werden:
+https://opendata.vrn.de/datasets/vrn-und-rnn-gtfs-sollfahrplandaten-aktuell (letzter Zugriff am 20.07.2026)
+Für die Reproduzierbarkeit der Analysen ist der Datensatz mit Stand vom 23.06.2026 zu verwenden. Nach dem Download der ZIP-Datei ist diese entsprechend der im Python-Skript verwendeten Dateibezeichnung umzubenennen.
 
-Die GTFS-Daten, die für die Erreichbarkeitsanalyse mit der Regionalbahn benötigt werden, werden unter dem Namen "Schienenverkehr.zip" bereitsgestellt und können direkt eingebunden werden. 
-Die Daten stammen von der offiziellen Webseite gtfs.de und enthält den kompletten Schienenregionalverkehr in Deutschland. 
+# GTFS-Daten des Bahnverkehrs
+Die für die Erreichbarkeitsanalyse mit der Regionalbahn benötigten GTFS-Daten werden unter dem Dateinamen
+`Schienenverkehr`.zip
+bereitgestellt und können direkt in die Analyse eingebunden werden.
+Die Daten stammen von der Plattform gtfs.de und umfassen den regionalen Schienenverkehr innerhalb der Untersuchungsregion.
 
-
-Die Datengrundlagen sind 
-- Raster_BZA_Woerth.geojson: deutsches Inspire-Geogitter in Lambert-Projektion vom Bundesamt für Kartographie und Geodäsie
-- OSM_Daten: frei verfügbare Daten von OpenStreetMap
-- Zugverkehr-zip: gtfs.de Schienenregionalverkehr Deutschland
-
-
-ORS genutzt
+# weiterführende Hinweise
+Detaillierte Erläuterungen zum Aufbau und Ablauf der Analysen sind in den Dateien
+`Erreichbarkeitsanalyse_Bus`
+`Erreichbarkeitsanalyse_Bahn`
+enthalten. Dort werden die einzelnen Verarbeitungsschritte sowie die benötigten Eingabedaten näher beschrieben. 
