@@ -1,16 +1,19 @@
 # Erreichbarkeitsanalysen
 
+In diesem Ordner werden die Erreichbarkeitsanalyse mit dem Bus und der Bahn sowie die dafür verwendeten Daten gespeichert. 
 
+Beide Erreichbarkeitsanalysen werden auf der Grundlage des Bevölkerungsrasters im Umfeld von Schaidt durchgeführt. Diese Raster basieren auf den Bevölkerungsdaten des Zensus-Atlas mit 100x100m. 
+Diese werden als Geojson in das Projekt eingebunden und befinden sich unter dem Dateinamen "Raster_BZA,Woerth" in dem entsprechendem Ordner.
 
-
-
-Die Erreichbarkeitsanalysen werden auf Grundlage der Bevölkerungsraster im Umfeld von Schaidt durchgeführt, die als Datei „Raster_BZA_Woerth.geojson“ in das Projekt eingebunden werden. Die für die Netzwerkanalyse erforderlichen OpenStreetMap-Daten sind in der Datei „OSM_Daten.pbf“ gespeichert.
+Zudem werden OpenStreetMap-Daten als Grundlage für das Wegenetz genutzt, die ebenfalls für beide Anakysen unter "OSM_Daten.pbf" gepsiechert sind. Diese Daten stammen von der offiziellen OSM-Webseite. 
 
 Die GTFS-Daten des Busverkehrs konnten aufgrund ihrer Dateigröße nicht in das GitHub-Repository integriert werden. Sie können über das Open-Data-Portal des VRN unter folgendem Link heruntergeladen werden:
 https://opendata.vrn.de/datasets/vrn-und-rnn-gtfs-sollfahrplandaten-aktuell
-Die GTFS-Daten des Bahnverkehrs wurden hinzugefügt und können entsprechend direkt genutzt werden.
-
 Für die Reproduzierbarkeit der Analysen ist der Datensatz mit Stand vom 20.07.2026 zu verwenden. Nach dem Download der ZIP-Datei ist diese entsprechend der im Python-Skript verwendeten Dateibezeichnung umzubenennen.
+
+Die GTFS-Daten, die für die Erreichbarkeitsanalyse mit der Regionalbahn benötigt werden, werden unter dem Namen "Schienenverkehr.zip" bereitsgestellt und können direkt eingebunden werden. 
+Die Daten stammen von der offiziellen Webseite gtfs.de und enthält den kompletten Schienenregionalverkehr in Deutschland. 
+
 
 Die Datengrundlagen sind 
 - Raster_BZA_Woerth.geojson: deutsches Inspire-Geogitter in Lambert-Projektion vom Bundesamt für Kartographie und Geodäsie
