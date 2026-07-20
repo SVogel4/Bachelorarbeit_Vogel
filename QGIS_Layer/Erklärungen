@@ -1,0 +1,5 @@
+In diesem Ordner werden die QGIS-Layer gespeichert.
+Die POIs ergeben sich aus der Befragung der Bewohnerinnen und Bewohner der beiden Dörfer Schaidt und Vollmersweiler. 
+Die Erreichbarkeiten wurden mithilfe von openrouteservice oder der eigenen Erreichbarkeitsanalyse ermittelt.
+
+Die Abweichungne der Erreichbarkeit folgern aus den Analysen mit ORS im Vergleich mit den Angaben der Befragten und dem Anteil falscher Antworten.
