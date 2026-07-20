@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
-"name": "Raster_BZA,Woerth",
+"name": "Raster_BZA,Woerth", 
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::25832" } },
 "features": [
 {"type":"Feature","properties":{"fid":1,"rowid":3538471,"featuretype_name":"DE_Grid_ETRS89-LAEA_100m","dataset_name":"de_grid_laea_100m","OBJECTID":3538471,"id":"100mN28800E41870","x_sw":4187000.0,"y_sw":2880000.0,"x_mp":4187050.0,"y_mp":2880050.0,"f_staat":10000.0,"f_land":10000.0,"f_wasser":0.0,"p_staat":100.0,"p_land":100.0,"p_wasser":0.0,"Shape_Length":400.0,"Shape_Area":10000.0,"ags":"07334501"},"geometry":{"type":"Polygon","coordinates":[[[439191.706760365923401,5429809.547756747342646],[439190.36412979895249,5429909.525669069029391],[439290.296612556674518,5429910.917366489768028],[439291.639224233746063,5429810.939460646361113],[439191.706760365923401,5429809.547756747342646]]]}},
