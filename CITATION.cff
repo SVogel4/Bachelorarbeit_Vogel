@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as follows."
+title: "Subjektive und objektive Erreichbarkeit im ländlichen Raum – Eine altersbezogene Analyse am Beispiel von Schaidt"
+type: software
+authors:
+  - family-names: Vogel
+    given-names: Sarah
+repository-code: "https://github.com/SVogel4/Bachelorarbeit_Vogel"
+url: "https://github.com/SVogel4/Bachelorarbeit_Vogel"
+license: "MIT"
+date-released: 2026-07-20
