@@ -2,10 +2,20 @@
 Subjektive und objektive Erreichbarkeit im ländlichen Raum - Eine altersbezogenen Analyse am Beispiel von Schaidt
 
 
-In diesem Repositorie werden sowohl der Code für die Erreichbarkeitsanalysen im Bus- und Bahnverkehr als auch die verwendeten Layer in QGIS gespeichert. 
-Zudem ist die pdf-Datei der Umfrage gespeichert, die in dieser Form ausgedruckt an die Befragten ausgegeben wurde, um die subjektive Erreichbarkeit zu detektieren und sie mit den GIS-Analysen vergleichen zu können. 
+Dieses Repository enthält die im Rahmen der Bachelorarbeit verwendeten Skripte, Datengrundlagen und GIS-Daten. Ziel der Arbeit ist die Untersuchung der subjektiven und objektiven Erreichbarkeit im ländlichen Raum am Beispiel von Schaidt sowie der Vergleich der wahrgenommenen Erreichbarkeit mit den Ergebnissen GIS-gestützter Erreichbarkeitsanalysen.
 
-Zu Beginn wird der Ordner mit den Dateien zu den Erreichbarkeitsanalysen aufgegliedert.
-Darin enthalten sind die Codes für die Durchführung der Erreichbarkeitsanalysen im Bus- und Bahnverkehr sowie die benötigten Daten und eine Datei "Erklärungen", die weitere Details zu den benötigten Dateien und der Struktur liefert.
+Neben dem Python-Code für die Erreichbarkeitsanalysen im Bus- und Bahnverkehr sind die verwendeten QGIS-Layer sowie die im Rahmen der Befragung eingesetzte Umfrage als PDF-Datei enthalten. Die Umfrage wurde in dieser Form an die Teilnehmenden ausgegeben, um die subjektive Erreichbarkeit zu erfassen und anschließend mit den objektiven GIS-Analysen zu vergleichen.
 
-Ähnlich sieht die Struktur des Ordners QGIS_Layer aus, der verschiedene Unterordner zu den verschiedenen POIs und ihren ermittelten Erreichbarkeiten mit verschiedenen Verkehrsmitteln als Layer zeigt. Des weiteren ist ein Ordner mit Layern zur Auswertung enthalten. Im Ordner Beispiel_Analyse sind die Ausgangspunkte der Erreichbarkeitsanalyse mit dem Bus und der Bahn enthalten sowie zwei Geopackage-Layer, die das Ergebnis aus der Erreichbarkeitsanalyse aus dem ersten Überordner in QGIS darstellen lassen. 
+
+# Struktur des Repositories
+Der Ordner Erreichbarkeitsanalysen enthält
+- die Python-Skripte zur Durchführung der Erreichbarkeitsanalysen im Bus- und Bahnverkehr,
+- die hierfür benötigten Datengrundlagen,
+- eine Datei Erklärungen, die weitere Informationen zu den erforderlichen Dateien, deren Benennung sowie zur Ordnerstruktur enthält.
+
+Der Ordner QGIS_Layer enthält 
+- Unterordnung zu den erzeugten Ordnern zu den untersuchten POIs und den jeweils ermittelten ERreichbarkeiten für die unterschiedlichen Verkehrsmittel
+- Ordner zur Auswertung der Daten und Kombination von subjektiver und objektiver Erreichbarkeit
+- Ergebnisse der phyton-basierten Erreichbarkeitsanalysen dargestellt als QGIS-Layer
+
+PDF-Datei mit der Umfrage
