@@ -7,7 +7,7 @@ Dieses Repository enthält die im Rahmen der Bachelorarbeit verwendeten Skripte,
 Neben dem Python-Code für die Erreichbarkeitsanalysen im Bus- und Bahnverkehr sind die verwendeten QGIS-Layer sowie die im Rahmen der Befragung eingesetzte Umfrage als PDF-Datei enthalten. Die Umfrage wurde in dieser Form an die Teilnehmenden ausgegeben, um die subjektive Erreichbarkeit zu erfassen und anschließend mit den objektiven GIS-Analysen zu vergleichen.
 
 
-# Struktur des Repositories
+## Struktur des Repositories
 Der Ordner Erreichbarkeitsanalysen enthält
 - die Python-Skripte zur Durchführung der Erreichbarkeitsanalysen im Bus- und Bahnverkehr,
 - die hierfür benötigten Datengrundlagen,
