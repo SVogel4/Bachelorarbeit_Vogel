@@ -14,7 +14,7 @@ Der Ordner Erreichbarkeitsanalysen enthält
 - eine Datei Erklärungen, die weitere Informationen zu den erforderlichen Dateien, deren Benennung sowie zur Ordnerstruktur enthält.
 
 Der Ordner QGIS_Layer enthält 
-- Unterordnung zu den erzeugten Ordnern zu den untersuchten POIs und den jeweils ermittelten ERreichbarkeiten für die unterschiedlichen Verkehrsmittel
+- Unterordnung zu den erzeugten Ordnern zu den untersuchten POIs und den jeweils ermittelten Erreichbarkeiten für die unterschiedlichen Verkehrsmittel
 - Ordner zur Auswertung der Daten und Kombination von subjektiver und objektiver Erreichbarkeit
 - Ergebnisse der phyton-basierten Erreichbarkeitsanalysen dargestellt als QGIS-Layer
 
