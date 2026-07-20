@@ -11,7 +11,7 @@ Die Rasterdaten werden als GeoJSON-Datei in das Projekt eingebunden und befinden
 ## OpenStreetMap-Daten
 Als Grundlage für das Wegenetz werden für beide Analysen Daten aus OpenStreetMap (OSM) von der offiziellen Webseite verwendet. 
 Diese sind im Repository unter folgendem Dateinamen gespeichert:
-`OSM_Daten`.pbf
+`OSM_Daten`.pbf 
 
 ## GTFS-Daten des Busverkehrs
 Die GTFS-Daten des Busverkehrs konnten aufgrund ihrer Dateigröße nicht in das GitHub-Repository integriert werden. Sie können über das Open-Data-Portal des Verkehrsverbundes Rhein-Neckar (VRN) unter folgendem Link heruntergeladen werden:
