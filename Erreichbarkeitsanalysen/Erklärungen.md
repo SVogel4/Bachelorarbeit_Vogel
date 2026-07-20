@@ -25,8 +25,8 @@ bereitgestellt und können direkt in die Analyse eingebunden werden.
 Die Daten stammen von der Plattform gtfs.de und umfassen den regionalen Schienenverkehr innerhalb der Untersuchungsregion.
 
 ## weiterführende Hinweise
-Die Erreichbarkeitsanalyse wurde nach einer Vorlage von Yu Feng programmiert, die unter 
-Vorlage_Analyse_Feng.html 
+Die Erreichbarkeitsanalyse wurde nach einer Vorlage von Prof. Dr.-Ing. Yu Feng programmiert, die unter 
+`Vorlage_Analyse_Feng.html` 
 gespeichert ist.
 
 Detaillierte Erläuterungen zum Aufbau und Ablauf der Analysen sind in den Dateien
