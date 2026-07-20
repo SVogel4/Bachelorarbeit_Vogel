@@ -19,3 +19,4 @@ Der Ordner QGIS_Layer enthält
 - Ergebnisse der phyton-basierten Erreichbarkeitsanalysen dargestellt als QGIS-Layer
 
 Zudem ist eine PDF-Datei mit der Umfrage beigefügt
+ 
