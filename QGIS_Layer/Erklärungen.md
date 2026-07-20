@@ -1,34 +1,35 @@
 # QGIS-Layer
 
-Dieser Ordner enthält die verschiedenen QGIS-Layer, die sich aus der Erreichbarkeitsanalyse der verschiedenen POIs ergeben.
+Dieser Ordner enthält die verschiedenen QGIS-Layer, die im Rahmen der Erreichbarkeitsanalysen erstellt wurden.
 
 ## Unterordner zu den POIs
-In der Unterordner der einzelnen POIs sind jeweils die POIs als Punktlayer dargestellt sowie die Erreichbarkeiten mit den verschiedenen Verkehrsmitteln. 
-Hierzu zählen
+Die Unterordner der einzelnen Points of Interest (POIs) enthalten sowohl die jeweiligen POIs als Punktlayer als auch die zugehörigen Erreichbarkeitslayer für die verschiedenen Verkehrsmittel. 
+Hierzu zählen die Kategorien:
 `KiTas_Grundschulen`
 `weiterfuehrendeSchule`
 `Gesundheitsversorgung`
 `Einkaufsmoeglichkeiten`
 `Freizeitmoeglichkeiten`
 
-Die POIs selbst ergeben sich aus der Befragung der Bewohnerinnen und Bewäóhner der beiden Dörfer Schaidt und vollmersweiler.
-Die Erreichbarkeiten wurden mithilfe von openrouteservice oder der eigenen Erreichbarkeitsanalyse ermittelt.
+Die Auswahl der POIs basiert auf den Ergebnissen der Befragung der Bewohnerinnen und Bewohner der Ortsgemeinden Schaidt und Vollmersweiler. Die Erreichbarkeiten wurden mithilfe von OpenRouteService (ORS) sowie der im Rahmen dieser Arbeit entwickelten Erreichbarkeitsanalysen ermittelt.
 
 ## Erreichbarkeit der Zentroide
-In dem Ordner zur Erreichbarkeit der Zentroide sind die jeweiligen ausgewählten zwei Zentroide der vier Bereiche des Untersuchungsgebietes gemeinsam mit ihrer Erreichbarkeit gespeichert. 
-Hierbei wurden sowohl die vier Bereiche als auch im westlichen Bereich in einem Raster zwei Zentroide in ihrer Erreichbarkeit zu Fuß dargestellt.
+Der Ordner zur Erreichbarkeit der Zentroide enthält die ausgewählten Zentroide der vier Teilbereiche des Untersuchungsgebietes sowie die jeweils ermittelten Erreichbarkeiten.
+Darüber hinaus wurden für den westlichen Untersuchungsbereich zusätzlich zwei Zentroide innerhalb eines Rasters ausgewählt und deren fußläufige Erreichbarkeit dargestellt.
 
 ## Beispiel Analyse
-Der Inhalt des Ornders zeigt bezugnehmnd auf den ORdner mit den Erreichbarkeitsanalysen die Erreichbarkeit von zwei Haltestellen aus einmal im Bus- und im Regionalbahnverkehr an. Zudem sind die Bus- und Bahnhaltepunkte der beiden Dörfer kartiert.
+Der Inhalt dieses Ordners veranschaulicht – ergänzend zu den Skripten im Ordner `Erreichbarkeitsanalysen` – die Ergebnisse der Erreichbarkeitsanalyse für jeweils zwei Beispielhaltestellen im Bus- und Regionalbahnverkehr.
+Zusätzlich sind die Bus- und Bahnhaltepunkte der beiden Untersuchungsorte kartiert.
 
 ## Auswertung
-Dieser Ordner enthält bereits Ergebnisse aus der Analyse der Daten. 
-Hierbei handelt es sich um den vergleich der subjektiv wahrgenommenen Erreichbarkeiteen, die in der Umfrage ermittelt wurden und der objektiven Erreichbarkeit, die mit Hilfe der Erreichbarkeitsanalysen ermittelt werden. 
-Unter dem Dateinamen `Teilnehmer_je_Raster.gpkg` ist die Anzahl der Teilnehmer je Befragungsraster kartiert. 
-Die Raster selbst sind nochmals unter `Raster_Schaidt_Vollmersweiler` dargestellt. 
+Dieser Ordner enthält bereits Ergebnisse der Analyse und des Vergleichs zwischen subjektiver und objektiver Erreichbarkeit.
+Hierbei werden die in der Befragung ermittelten subjektiv wahrgenommenen Erreichbarkeiten den objektiv bestimmten Erreichbarkeiten aus den GIS-Analysen gegenübergestellt.
+Unter dem Dateinamen `Teilnehmer_je_Raster.gpkg` ist die Anzahl der Befragungsteilnehmenden je Untersuchungsraster kartiert. 
+Die zugrunde liegenden Raster sind zusätzlich unter `Raster_Schaidt_Vollmersweiler` dargestellt. 
 
-Einen konkreten Vergleich stellt der Layer `Abweichung_Erreichbarkeit_Prozent`dar. 
-Die Abweichungen der Erreichbarkeit folgern aus den Analysen mit ORS im Vergleich mit den Angaben der Befragten und dem Anteil falscher Antworten.
+Einen konkreten Vergleich der subjektiven und objektiven Erreichbarkeit stellt der Layer `Abweichung_Erreichbarkeit_Prozent`dar. 
+Dieser zeigt die prozentualen Abweichungen zwischen den auf Grundlage der ORS-Analysen ermittelten Erreichbarkeiten und den Angaben der Befragten. 
+Die dargestellten Werte basieren auf dem Anteil der von den Befragten falsch eingeschätzten Erreichbarkeiten.
 
 
 # weiterführende Hinweise
