@@ -1,3 +1,9 @@
+# Erreichbarkeitsanalysen
+
+
+
+
+
 Die Erreichbarkeitsanalysen werden auf Grundlage der Bevölkerungsraster im Umfeld von Schaidt durchgeführt, die als Datei „Raster_BZA_Woerth.geojson“ in das Projekt eingebunden werden. Die für die Netzwerkanalyse erforderlichen OpenStreetMap-Daten sind in der Datei „OSM_Daten.pbf“ gespeichert.
 
 Die GTFS-Daten des Busverkehrs konnten aufgrund ihrer Dateigröße nicht in das GitHub-Repository integriert werden. Sie können über das Open-Data-Portal des VRN unter folgendem Link heruntergeladen werden:
