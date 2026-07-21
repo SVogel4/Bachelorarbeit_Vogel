@@ -4,10 +4,10 @@ Subjektive und objektive Erreichbarkeit im ländlichen Raum - Eine altersbezogen
 In dem Ordner sind zwei Excel-Dateien gespeichert.
 Beide zeigen die Ergebnisse der Umfrage zur subjektiven Wahrnehmung der Erreichbarkeit der verschiedenenen Einrichtungen der Daseinsvorsorge auf.
 
-Die erste ´Daten_Umfrage_Zahlen.xlsx´ liefert die Ergebnisse, mit Ausnahme der beschriebenen Antworten der Befragten, als Zahlen.
+Die erste `Daten_Umfrage_Zahlen.xlsx` liefert die Ergebnisse, mit Ausnahme der beschriebenen Antworten der Befragten, als Zahlen.
 Diese Ecxel-Datei `Daten_Umfrage.xlsx` enthält mehrere Tabellen, die verschiedene Sortierungen der Daten aufzeigen. Hier sind die Ergebnisse als Text angegeben.
 
-## Struktur der Datei ´Daten_Umfrage_Zahlen.xlsx` 
+## Struktur der Datei `Daten_Umfrage_Zahlen.xlsx` 
 Die Datei enthält nur das Tabellenblatt "Zahlen". 
 Die Daten hierin liegen unverändert vor und wurden nach den Untersuchungsgebieten sortiert. 
 Bei jeder Einschätzung der Erreichbarkeit wurde jeweils für die Raster in Schaidt und für die in Vollmersweiler ein Mittelwert ermittelt. Dies erfolgt bei allen POIs.
