@@ -33,4 +33,5 @@ Zu der Auswertung der Grunddaten wurde eine Grafik für die Befragten je Altersk
 Zudem wurden die angegebenen wichtigsten Kategorien nach Altersklassen aufgegliedert. 
 Anschließend wurde die Häufigkeit der Nennung dieser wichtigsten Kategorien mit dem Durchschnitt der Angaben zur Bewertung der einzelnen POIs gegenübergestellt.
 Zudem wurden die genutzten Verkehrsmittel nach Altersgruppen in Prozent berechnet und in der Grafik "Nutzung der Verkehrsmittel nach Altersgruppen" dargestellt.
+Außerdem wurden die wichtigsten POIs nach den Altersgruppen in einer Grafik dargestellt.
  
