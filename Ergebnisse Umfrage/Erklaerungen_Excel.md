@@ -20,6 +20,7 @@ Die Datei enthält mehrere Tabellen
 - Rohdaten
 - sortiert_Altersklassen
 - Rasterbereiche
+- Rasterbereiche (2)
 - Haltestellen
 
 ### Rohdaten
@@ -46,6 +47,10 @@ Mit dem gleichen Algorithmus wird geprüft, ob ein Zusammenhang zwischen der Abw
 
 Die Grafik der "Bewertung der Erreichbarkeit nach POI" wurde mit den Daten aus der `Daten_Umfrage_Zahlen.xlsx` erstellt. 
 In der Grafik "Anteil korrektr Zeiteinschätzungen pro POI" werden die übereinstimmenden Angaben in den Reisezeiten getrennt nach den beiden Untersuchungsorten in Prozent angegeben.
+
+### Rasterbereiche (2)
+Dieses Blatt enthält die gleichen Informationen wie "Rasterblatt", ist jedoch nach den Altersgruppen sortiert. 
+Dies ermöglicht die Analyse und Darstellung des Anteils korrekter Reisezeiteinschätzungen nach den Altersgruppen.
 
 ### Haltestellen
 Auf diesem Tabellenblatt werden die untersuchten Bus- und Bahnhaltestellen in Schaidt aufgezeigt. 
