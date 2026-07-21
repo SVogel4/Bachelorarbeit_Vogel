@@ -15,7 +15,7 @@ Hieraus wird die Graphik "Bewertung der Erreichbarkeit nach POI" für die beiden
 Zudem erfolgte gemeinsam für alle Rasterbereiche die Ermittlung des Durchschnittswertes für die Bedeutung der Erreichbarkeit getrennt für alle POIs. 
 Hieraus ergibt sich die Graphik "Bewertung der Erreichbarkeiten nach POI". 
 
-## Struktur der Datei
+## Struktur der Datei `Daten_Umfrage.xlsx` 
 Die Datei enthält mehrere Tabellen
 - Rohdaten
 - sortiert_Altersklassen
@@ -27,11 +27,26 @@ Hierin sind die unsortierten Rohdaten enthalten.
 Es wurden einzig die Raster mit den meisten Teilnehmern in den vier Bereichen gekennzeichnet sowie erste Auswertungen der Grunddaten zu den Befragten durchgeführt.
 
 ### sortiert_Altersklassen
-Die Rohdaten wurden hier nach den Altersklassen sortiert. 
+Die Rohdaten wurden hier nach den Altersgruppen sortiert. 
 
 Zu der Auswertung der Grunddaten wurde eine Grafik für die Befragten je Altersklasse erstellt. 
 Zudem wurden die angegebenen wichtigsten Kategorien nach Altersklassen aufgegliedert. 
 Anschließend wurde die Häufigkeit der Nennung dieser wichtigsten Kategorien mit dem Durchschnitt der Angaben zur Bewertung der einzelnen POIs gegenübergestellt.
 Zudem wurden die genutzten Verkehrsmittel nach Altersgruppen in Prozent berechnet und in der Grafik "Nutzung der Verkehrsmittel nach Altersgruppen" dargestellt.
 Außerdem wurden die wichtigsten POIs nach den Altersgruppen in einer Grafik dargestellt.
- 
+
+### Rasterbereiche
+Die Rohdaten werden hier nach den vier Rasterbereichen sowie darin dann nach Altersgruppen sortiert.
+Es folgt innerhalb der Grunddaten ein Vergleich, welche Anteil der Gesamtbevölkerung laut Zensus in den einzelnen Rastern befragt wurde. 
+Auch erfolgte der Vergleich des Altersdurchschnitts der Befragten je Raster mit den Zensusdaten. 
+In dem Tabellenblatt ist zudem eine Auswertung ergänzt, inwiefern sich die Bewohner im Vergleich zu ähnlichen Dörfern in Bezug auf die Erschließung einschätzen. 
+
+Es wurde mit Hilfe der Spearmen Rangkorrelation die Abhängigkeit der Einschätzung der Erreichbarkeit von dem Alter der Befragten ermittelt. 
+Mit dem gleichen Algorithmus wird geprüft, ob ein Zusammenhang zwischen der Abweichung der Reisezeiten und der Anzahl der Befragten besteht.
+
+Die Grafik der "Bewertung der Erreichbarkeit nach POI" wurde mit den Daten aus der `Daten_Umfrage_Zahlen.xlsx` erstellt. 
+In der Grafik "Anteil korrektr Zeiteinschätzungen pro POI" werden die übereinstimmenden Angaben in den Reisezeiten getrennt nach den beiden Untersuchungsorten in Prozent angegeben.
+
+### Haltestellen
+Auf diesem Tabellenblatt werden die untersuchten Bus- und Bahnhaltestellen in Schaidt aufgezeigt. 
+Es wird für die verschiedenen Uhrzeiten für die Haltestellen ermittelt, wie viele Raster jeweils erreichbar sind und was der Median der Reisezeit ist. 
