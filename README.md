@@ -21,6 +21,7 @@ Der Ordner QGIS_Layer enthält
 Der Ordner Ergebnisse Umfrage enthält
 - 2 Excel-Dateien mit den Ergebnissen der Umfrage und den Auswertungen der Daten
 - eine Datei Erklärungen_Excel, die die beiden Dateien und ihren Inhalt genauer erklärt
+- die Dokumentation des Interviews mit dem Ortsvorsteher
 
 Der Ordner Webseite enthält
 - die html-Datei
