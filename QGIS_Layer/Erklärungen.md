@@ -18,7 +18,7 @@ Der Ordner zur Erreichbarkeit der Zentroide enthält die ausgewählten Zentroide
 Darüber hinaus wurden für den westlichen Untersuchungsbereich zusätzlich zwei Zentroide innerhalb eines Rasters ausgewählt und deren fußläufige Erreichbarkeit dargestellt.
 
 ## Beispiel Analyse
-Der Inhalt dieses Ordners veranschaulicht – ergänzend zu den Skripten im Ordner `Erreichbarkeitsanalysen` – die Ergebnisse der Erreichbarkeitsanalyse für jeweils zwei Beispielhaltestellen im Bus- und Regionalbahnverkehr.
+Der Inhalt dieses Ordners veranschaulicht – ergänzend zu den Skripten im Ordner `Erreichbarkeitsanalysen` – die Ergebnisse der Erreichbarkeitsanalyse für die jeweiligen Beispielhaltestellen im Bus- und Regionalbahnverkehr.
 Zusätzlich sind die Bus- und Bahnhaltepunkte der beiden Untersuchungsorte kartiert.
 
 ## Auswertung
